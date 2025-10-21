@@ -24,14 +24,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
-      <html lang="en">
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
-          {children}
-        </body>
-      </html>
-    </ClerkProvider>
+    <ClerkProvider
+        appearance={{
+          variables: {
+            colorPrimary: "#1e9df1",
+            colorBackground: "#f3f4f6",
+            colorText: "#111827",
+            colorTextSecondary: "#6b7280",
+            colorInputBackground: "#f3f4f6",
+          },
+        }}
+      >
+        <html lang="en">
+          <body className={`${geistSans.variable} ${geistMono.variable} antialiased dark`} suppressHydrationWarning={true}>
+          
+           
+            {children}
+          </body>
+        </html>
+      </ClerkProvider>
   );
 }
