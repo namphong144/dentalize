@@ -95,7 +95,7 @@ function DoctorsManagement() {
                   {doctor.isActive ? (
                     <Badge className="bg-green-100 text-green-800 hover:bg-green-100">Active</Badge>
                   ) : (
-                    <Badge variant="secondary">Inactive</Badge>
+                    <Badge className="bg-red-100 text-red-800 hover:bg-red-100" variant="secondary">Inactive</Badge>
                   )}
                   <Button
                     size="sm"

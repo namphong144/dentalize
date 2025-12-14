@@ -1,16 +1,28 @@
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
+import { Gender } from "@prisma/client";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export function generateAvatar(name: string, gender: "MALE" | "FEMALE") {
-  const username = name.replace(/\s+/g, "").toLowerCase();
-  const base = "https://avatar.iran.liara.run/public";
-  if (gender === "FEMALE") return `${base}/girl?username=${username}`;
-  // default to boy
-  return `${base}/boy?username=${username}`;
+// export function generateAvatar(name: string, gender: "MALE" | "FEMALE") {
+//   const username = name.replace(/\s+/g, "").toLowerCase();
+//   const base = "https://avatar.iran.liara.run/public";
+//   if (gender === "FEMALE") return `${base}/girl?username=${username}`;
+//   // default to boy
+//   return `${base}/boy?username=${username}`;
+// }
+
+
+
+export function generateAvatar(
+  _name?: string,
+  gender?: Gender | null
+) {
+  if (gender === "MALE") return "/avatar-male.jpg";
+  if (gender === "FEMALE") return "/avatar-female.jpg";
+  return "/avatar-placeholder.jpg";
 }
 
 // phone formatting function for US numbers - ai generated 🎉
