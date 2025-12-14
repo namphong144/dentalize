@@ -16,7 +16,19 @@ export default async function Home() {
   await syncUser();
 
   // redirect auth user to dashboard
-  if (user) redirect("/dashboard");
+  if (user) {
+    const adminEmail = process.env.ADMIN_EMAIL;
+    const userEmail = user.emailAddresses[0]?.emailAddress;
+
+    // admin → /admin
+    if (adminEmail && userEmail === adminEmail) {
+      redirect("/admin");
+    }
+
+    // user thường → /dashboard
+    redirect("/dashboard");
+  }
+
 
   return (
     <div className="min-h-screen bg-background">
