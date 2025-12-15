@@ -181,20 +181,10 @@ function AppointmentsPage() {
       {/* SHOW EXISTING APPOINTMENTS FOR THE CURRENT USER */}
       {userAppointments.length > 0 && (
         <div className="mb-8 max-w-7xl mx-auto px-6 py-8">
-          <h2 className="text-xl font-semibold mb-4">
-            Your Appointments
-          </h2>
+          <h2 className="text-xl font-semibold mb-4">Your Appointments</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {userAppointments.map((appointment) => {
-              const isPast = isPastAppointment(
-                appointment.date,
-                appointment.time
-              );
-
-              const status =
-                appointment.status === "COMPLETED" || isPast
-                  ? "COMPLETED"
-                  : appointment.status;
+              const status = appointment.status;
 
               return (
                 <div
@@ -222,15 +212,15 @@ function AppointmentsPage() {
                     </div>
 
                     {/* STATUS BADGE */}
-                    {status === "COMPLETED" && (
-                      <span className="text-xs px-2 py-1 rounded-full bg-green-100 text-green-700 font-medium">
-                        COMPLETED
-                      </span>
-                    )}
-
-                    {status === "REJECTED" && (
-                      <span className="text-xs px-2 py-1 rounded-full bg-red-100 text-red-700 font-medium">
-                        REJECTED
+                    {status !== "CONFIRMED" && (
+                      <span
+                        className={`text-xs px-2 py-1 rounded-full font-medium ${
+                          status === "COMPLETED"
+                            ? "bg-green-100 text-green-700"
+                            : "bg-red-100 text-red-700"
+                        }`}
+                      >
+                        {status}
                       </span>
                     )}
                   </div>

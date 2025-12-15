@@ -4,6 +4,45 @@ import { auth } from "@clerk/nextjs/server";
 import { prisma } from "../prisma";
 import { AppointmentStatus } from "@prisma/client";
 
+function combineDateTime(date: Date, time: string) {
+  const [hours, minutes] = time.split(":").map(Number);
+
+  const dateTime = new Date(date);
+  dateTime.setHours(hours, minutes, 0, 0);
+
+  return dateTime;
+}
+
+async function autoCompleteAppointments() {
+  const now = new Date();
+
+  const confirmedAppointments = await prisma.appointment.findMany({
+    where: {
+      status: AppointmentStatus.CONFIRMED,
+    },
+    select: {
+      id: true,
+      date: true,
+      time: true,
+    },
+  });
+
+  const expiredIds = confirmedAppointments
+    .filter((apt) => combineDateTime(apt.date, apt.time) < now)
+    .map((apt) => apt.id);
+
+  if (expiredIds.length === 0) return;
+
+  await prisma.appointment.updateMany({
+    where: {
+      id: { in: expiredIds },
+    },
+    data: {
+      status: AppointmentStatus.COMPLETED,
+    },
+  });
+}
+
 function transformAppointment(appointment: any) {
   return {
     ...appointment,
@@ -17,6 +56,9 @@ function transformAppointment(appointment: any) {
 
 export async function getAppointments() {
   try {
+     // 🔥 AUTO UPDATE STATUS
+     await autoCompleteAppointments();
+
     const appointments = await prisma.appointment.findMany({
       include: {
         user: {
@@ -40,6 +82,9 @@ export async function getAppointments() {
 
 export async function getUserAppointments() {
   try {
+
+    await autoCompleteAppointments();
+
     // get authenticated user from Clerk
     const { userId } = await auth();
     if (!userId) throw new Error("You must be logged in to view appointments");
@@ -54,7 +99,7 @@ export async function getUserAppointments() {
         user: { select: { firstName: true, lastName: true, email: true } },
         doctor: { select: { name: true, imageUrl: true } },
       },
-      orderBy: [{ date: "asc" }, { time: "asc" }],
+      orderBy: [{ date: "desc" }, { time: "desc" }],
     });
 
     return appointments.map(transformAppointment);
