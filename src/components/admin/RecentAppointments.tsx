@@ -30,6 +30,8 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import { useState } from "react";
+import * as XLSX from "xlsx";
+import { saveAs } from "file-saver";
 
 const ITEMS_PER_PAGE = 10;
 
@@ -85,9 +87,47 @@ function RecentAppointments() {
     }
   };
 
+  const formatDateTime = (date = new Date()) => {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, "0");
+    const d = String(date.getDate()).padStart(2, "0");
+    const h = String(date.getHours()).padStart(2, "0");
+    const min = String(date.getMinutes()).padStart(2, "0");
+
+    return `${y}-${m}-${d}_${h}-${min}`;
+  };
+
+  const handleExportExcel = () => {
+    const exportData = appointments.map((apt) => ({
+      "Patient Name": apt.patientName,
+      "Patient Email": apt.patientEmail,
+      Doctor: apt.doctorName,
+      Date: new Date(apt.date).toLocaleDateString(),
+      Time: apt.time,
+      Reason: apt.reason,
+      Status: apt.status,
+    }));
+
+    const worksheet = XLSX.utils.json_to_sheet(exportData);
+    const workbook = XLSX.utils.book_new();
+
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Appointments");
+
+    const excelBuffer = XLSX.write(workbook, {
+      bookType: "xlsx",
+      type: "array",
+    });
+
+    const blob = new Blob([excelBuffer], {
+      type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    });
+
+    saveAs(blob, `appointments_${formatDateTime()}.xlsx`);
+  };
+
   return (
     <Card>
-      <CardHeader>
+      {/* <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <Calendar className="h-5 w-5 text-primary" />
           Recent Appointments
@@ -95,8 +135,22 @@ function RecentAppointments() {
         <CardDescription>
           Monitor and manage all patient appointments
         </CardDescription>
-      </CardHeader>
+      </CardHeader> */}
+      <CardHeader className="flex flex-row items-center justify-between">
+        <div>
+          <CardTitle className="flex items-center gap-2">
+            <Calendar className="h-5 w-5 text-primary" />
+            Recent Appointments
+          </CardTitle>
+          <CardDescription>
+            Monitor and manage all patient appointments
+          </CardDescription>
+        </div>
 
+        <Button onClick={handleExportExcel} variant="outline" size="sm">
+          Export Excel
+        </Button>
+      </CardHeader>
       <CardContent>
         <div className="rounded-lg border">
           <Table>

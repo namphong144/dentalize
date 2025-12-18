@@ -8,6 +8,8 @@ import { Badge } from "../ui/badge";
 import AddDoctorDialog from "./AddDoctorDialog";
 import EditDoctorDialog from "./EditDoctorDialog";
 import { Doctor } from "@prisma/client";
+import * as XLSX from "xlsx";
+import { saveAs } from "file-saver";
 
 function DoctorsManagement() {
   const { data: doctors = [] } = useGetDoctors();
@@ -26,10 +28,50 @@ function DoctorsManagement() {
     setSelectedDoctor(null);
   };
 
+  const formatDateTime = (date = new Date()) => {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, "0");
+    const d = String(date.getDate()).padStart(2, "0");
+    const h = String(date.getHours()).padStart(2, "0");
+    const min = String(date.getMinutes()).padStart(2, "0");
+
+    return `${y}-${m}-${d}_${h}-${min}`;
+  };
+
+  const handleExportDoctorsExcel = () => {
+    const exportData = doctors.map((doctor, index) => ({
+      No: index + 1,
+      "Doctor Name": doctor.name,
+      Email: doctor.email,
+      Phone: doctor.phone,
+      Speciality: doctor.speciality,
+      Gender: doctor.gender === "MALE" ? "Male" : "Female",
+      Status: doctor.isActive ? "Active" : "Inactive",
+      "Total Appointments": doctor.appointmentCount,
+    }));
+  
+    const worksheet = XLSX.utils.json_to_sheet(exportData);
+    const workbook = XLSX.utils.book_new();
+
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Appointments");
+
+    const excelBuffer = XLSX.write(workbook, {
+      bookType: "xlsx",
+      type: "array",
+    });
+
+    const blob = new Blob([excelBuffer], {
+      type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    });
+
+    saveAs(blob, `doctors_${formatDateTime()}.xlsx`);
+  };
+  
+
   return (
     <>
       <Card className="mb-12">
-        <CardHeader className="flex items-center justify-between">
+        {/* <CardHeader className="flex items-center justify-between">
           <div>
             <CardTitle className="flex items-center gap-2">
               <StethoscopeIcon className="size-5 text-primary" />
@@ -45,6 +87,31 @@ function DoctorsManagement() {
             <PlusIcon className="mr-2 size-4" />
             Add Doctor
           </Button>
+        </CardHeader> */}
+        <CardHeader className="flex items-center justify-between">
+          <div>
+            <CardTitle className="flex items-center gap-2">
+              <StethoscopeIcon className="size-5 text-primary" />
+              Doctors Management
+            </CardTitle>
+            <CardDescription>
+              Manage and oversee all doctors in your practice
+            </CardDescription>
+          </div>
+
+          <div className="flex gap-2">
+            <Button variant="outline" onClick={handleExportDoctorsExcel}>
+              Export Excel
+            </Button>
+
+            <Button
+              onClick={() => setIsAddDialogOpen(true)}
+              className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/100"
+            >
+              <PlusIcon className="mr-2 size-4" />
+              Add Doctor
+            </Button>
+          </div>
         </CardHeader>
 
         <CardContent>
