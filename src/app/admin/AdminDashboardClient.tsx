@@ -4,7 +4,7 @@ import AdminStats from "@/components/admin/AdminStats";
 import DoctorsManagement from "@/components/admin/DoctorsManagement";
 import RecentAppointments from "@/components/admin/RecentAppointments";
 // import RecentAppointments from "@/components/admin/RecentAppointments";
-import Navbar from "@/components/Navbar";
+import NavbarAdmin from "@/components/NavbarAdmin";
 import { useGetAppointments } from "@/hooks/use-appointment";
 import { useGetDoctors } from "@/hooks/use-doctors";
 import { useUser } from "@clerk/nextjs";
@@ -27,7 +27,7 @@ function AdminDashboardClient() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
+      <NavbarAdmin />
 
       <div className="max-w-7xl mx-auto px-6 py-8 pt-24">
         {/* ADMIN WELCOME SECTION */}
@@ -74,7 +74,7 @@ export default AdminDashboardClient;
 function LoadingUI() {
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
+      <NavbarAdmin />
       <div className="max-w-7xl mx-auto px-6 py-8 pt-24">
         <div className="flex items-center justify-center h-96">
           <div className="text-center">
