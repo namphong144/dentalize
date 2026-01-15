@@ -1,0 +1,181 @@
+Date : 2025-12-14 06:24:14
+Directory : c:\Users\Nocky\Desktop\dentalize
+Total : 121 files,  14900 codes, 178 comments, 1111 blanks, all 16189 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| TypeScript JSX     |         94 |      8,725 |        150 |        962 |      9,837 |
+| JSON               |          4 |      5,352 |          0 |          4 |      5,356 |
+| TypeScript         |         13 |        519 |         19 |        100 |        638 |
+| PostCSS            |          1 |        186 |          1 |         11 |        198 |
+| Prisma             |          1 |         59 |          8 |         17 |         84 |
+| JSON with Comments |          1 |         27 |          0 |          1 |         28 |
+| Markdown           |          1 |         23 |          0 |         14 |         37 |
+| XML                |          5 |          5 |          0 |          0 |          5 |
+| JavaScript         |          1 |          4 |          0 |          2 |          6 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                          | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                             |        121 |     14,900 |        178 |      1,111 |     16,189 |
+| . (Files)                                                                                     |          8 |      5,426 |          1 |         24 |      5,451 |
+| prisma                                                                                        |          1 |         59 |          8 |         17 |         84 |
+| public                                                                                        |          5 |          5 |          0 |          0 |          5 |
+| src                                                                                           |        107 |      9,410 |        169 |      1,070 |     10,649 |
+| src (Files)                                                                                   |          1 |          8 |          2 |          2 |         12 |
+| src\app                                                                                       |         10 |        639 |         20 |         84 |        743 |
+| src\app (Files)                                                                               |          3 |        259 |          4 |         21 |        284 |
+| src\app\admin                                                                                 |          2 |         85 |          5 |         18 |        108 |
+| src\app\api                                                                                   |          1 |         44 |          3 |          6 |         53 |
+| src\app\api\send-appointment-email                                                            |          1 |         44 |          3 |          6 |         53 |
+| src\app\appointments                                                                          |          1 |        163 |          7 |         21 |        191 |
+| src\app\dashboard                                                                             |          1 |         17 |          0 |          2 |         19 |
+| src\app\pro                                                                                   |          1 |         49 |          1 |          9 |         59 |
+| src\app\voice                                                                                 |          1 |         22 |          0 |          7 |         29 |
+| src\components                                                                                |         86 |      8,316 |        134 |        895 |      9,345 |
+| src\components (Files)                                                                        |          2 |         96 |          2 |         14 |        112 |
+| src\components\admin                                                                          |          5 |        577 |          0 |         56 |        633 |
+| src\components\appointments                                                                   |          7 |        499 |         19 |         51 |        569 |
+| src\components\dashboard                                                                      |          6 |        311 |          7 |         28 |        346 |
+| src\components\emails                                                                         |          1 |        168 |          7 |         32 |        207 |
+| src\components\landing                                                                        |          7 |        702 |         49 |         68 |        819 |
+| src\components\providers                                                                      |          1 |         24 |         13 |          6 |         43 |
+| src\components\ui                                                                             |         53 |      5,536 |         17 |        595 |      6,148 |
+| src\components\voice                                                                          |          4 |        403 |         20 |         45 |        468 |
+| src\hooks                                                                                     |          3 |        104 |          3 |         25 |        132 |
+| src\lib                                                                                       |          7 |        343 |         10 |         64 |        417 |
+| src\lib (Files)                                                                               |          4 |         63 |          3 |         16 |         82 |
+| src\lib\actions                                                                               |          3 |        280 |          7 |         48 |        335 |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                      | language           | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\Nocky\Desktop\dentalize\README.md                                                    | Markdown           |         23 |          0 |         14 |         37 |
+| c:\Users\Nocky\Desktop\dentalize\biome.json                                                   | JSON               |         34 |          0 |          1 |         35 |
+| c:\Users\Nocky\Desktop\dentalize\components.json                                              | JSON               |         22 |          0 |          1 |         23 |
+| c:\Users\Nocky\Desktop\dentalize\next.config.ts                                               | TypeScript         |         20 |          1 |          3 |         24 |
+| c:\Users\Nocky\Desktop\dentalize\package-lock.json                                            | JSON               |      5,218 |          0 |          1 |      5,219 |
+| c:\Users\Nocky\Desktop\dentalize\package.json                                                 | JSON               |         78 |          0 |          1 |         79 |
+| c:\Users\Nocky\Desktop\dentalize\postcss.config.mjs                                           | JavaScript         |          4 |          0 |          2 |          6 |
+| c:\Users\Nocky\Desktop\dentalize\prisma\schema.prisma                                         | Prisma             |         59 |          8 |         17 |         84 |
+| c:\Users\Nocky\Desktop\dentalize\public\file.svg                                              | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Nocky\Desktop\dentalize\public\globe.svg                                             | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Nocky\Desktop\dentalize\public\next.svg                                              | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Nocky\Desktop\dentalize\public\vercel.svg                                            | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Nocky\Desktop\dentalize\public\window.svg                                            | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\admin\AdminDashboardClient.tsx                       | TypeScript JSX     |         73 |          3 |         12 |         88 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\admin\page.tsx                                       | TypeScript JSX     |         12 |          2 |          6 |         20 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\api\send-appointment-email\route.ts                  | TypeScript         |         44 |          3 |          6 |         53 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\appointments\page.tsx                                | TypeScript JSX     |        163 |          7 |         21 |        191 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\dashboard\page.tsx                                   | TypeScript JSX     |         17 |          0 |          2 |         19 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\globals.css                                          | PostCSS            |        186 |          1 |         11 |        198 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\layout.tsx                                           | TypeScript JSX     |         47 |          1 |          6 |         54 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\page.tsx                                             | TypeScript JSX     |         26 |          2 |          4 |         32 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\pro\page.tsx                                         | TypeScript JSX     |         49 |          1 |          9 |         59 |
+| c:\Users\Nocky\Desktop\dentalize\src\app\voice\page.tsx                                       | TypeScript JSX     |         22 |          0 |          7 |         29 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\Navbar.tsx                                    | TypeScript JSX     |         75 |          2 |          8 |         85 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\UserSync.tsx                                  | TypeScript JSX     |         21 |          0 |          6 |         27 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\admin\AddDoctorDialog.tsx                     | TypeScript JSX     |        152 |          0 |         14 |        166 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\admin\AdminStats.tsx                          | TypeScript JSX     |         72 |          0 |          5 |         77 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\admin\DoctorsManagement.tsx                   | TypeScript JSX     |        113 |          0 |         14 |        127 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\admin\EditDoctorDialog.tsx                    | TypeScript JSX     |        141 |          0 |         13 |        154 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\admin\RecentAppointments.tsx                  | TypeScript JSX     |         99 |          0 |         10 |        109 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\appointments\AppointmentConfirmationModal.tsx | TypeScript JSX     |        102 |          4 |         13 |        119 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\appointments\BookingConfirmationStep.tsx      | TypeScript JSX     |         88 |          4 |          8 |        100 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\appointments\DoctorCardsLoading.tsx           | TypeScript JSX     |         42 |          1 |          2 |         45 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\appointments\DoctorInfo.tsx                   | TypeScript JSX     |         23 |          0 |          4 |         27 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\appointments\DoctorSelectionStep.tsx          | TypeScript JSX     |         89 |          0 |          7 |         96 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\appointments\ProgressSteps.tsx                | TypeScript JSX     |         30 |          3 |          5 |         38 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\appointments\TimeSelectionStep.tsx            | TypeScript JSX     |        125 |          7 |         12 |        144 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\ActivityOverview.tsx                | TypeScript JSX     |         11 |          0 |          1 |         12 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\DentalHealthOverview.tsx            | TypeScript JSX     |         70 |          0 |          4 |         74 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\MainActions.tsx                     | TypeScript JSX     |         87 |          2 |          6 |         95 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\NextAppointment.tsx                 | TypeScript JSX     |         81 |          5 |         11 |         97 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\NoNextAppointments.tsx              | TypeScript JSX     |         30 |          0 |          2 |         32 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\WelcomeSection.tsx                  | TypeScript JSX     |         32 |          0 |          4 |         36 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\emails\AppointmentConfirmationEmail.tsx       | TypeScript JSX     |        168 |          7 |         32 |        207 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\landing\CTA.tsx                               | TypeScript JSX     |         74 |          8 |          9 |         91 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\landing\Footer.tsx                            | TypeScript JSX     |         90 |          0 |          5 |         95 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\landing\Header.tsx                            | TypeScript JSX     |         38 |          0 |          3 |         41 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\landing\Hero.tsx                              | TypeScript JSX     |         78 |         12 |         15 |        105 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\landing\HowItWorks.tsx                        | TypeScript JSX     |        112 |         16 |         18 |        146 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\landing\PricingSection.tsx                    | TypeScript JSX     |        172 |          7 |         12 |        191 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\landing\WhatToAsk.tsx                         | TypeScript JSX     |        138 |          6 |          6 |        150 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\providers\TanStackProvider.tsx                | TypeScript JSX     |         24 |         13 |          6 |         43 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\accordion.tsx                              | TypeScript JSX     |         59 |          0 |          8 |         67 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\alert-dialog.tsx                           | TypeScript JSX     |        143 |          0 |         15 |        158 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\alert.tsx                                  | TypeScript JSX     |         60 |          0 |          7 |         67 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\aspect-ratio.tsx                           | TypeScript JSX     |          8 |          0 |          4 |         12 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\avatar.tsx                                 | TypeScript JSX     |         47 |          0 |          7 |         54 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\badge.tsx                                  | TypeScript JSX     |         41 |          0 |          6 |         47 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\breadcrumb.tsx                             | TypeScript JSX     |         99 |          0 |         11 |        110 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\button-group.tsx                           | TypeScript JSX     |         76 |          0 |          8 |         84 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\button.tsx                                 | TypeScript JSX     |         55 |          0 |          6 |         61 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\calendar.tsx                               | TypeScript JSX     |        203 |          0 |         11 |        214 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\card.tsx                                   | TypeScript JSX     |         83 |          0 |         10 |         93 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\carousel.tsx                               | TypeScript JSX     |        214 |          0 |         28 |        242 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\chart.tsx                                  | TypeScript JSX     |        319 |          2 |         37 |        358 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\checkbox.tsx                               | TypeScript JSX     |         28 |          0 |          5 |         33 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\collapsible.tsx                            | TypeScript JSX     |         28 |          0 |          6 |         34 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\command.tsx                                | TypeScript JSX     |        172 |          0 |         13 |        185 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\context-menu.tsx                           | TypeScript JSX     |        234 |          0 |         19 |        253 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\dialog.tsx                                 | TypeScript JSX     |        130 |          0 |         14 |        144 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\drawer.tsx                                 | TypeScript JSX     |        122 |          0 |         14 |        136 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\dropdown-menu.tsx                          | TypeScript JSX     |        239 |          0 |         19 |        258 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\empty.tsx                                  | TypeScript JSX     |         95 |          0 |         10 |        105 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\field.tsx                                  | TypeScript JSX     |        225 |          0 |         20 |        245 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\form.tsx                                   | TypeScript JSX     |        143 |          0 |         25 |        168 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\hover-card.tsx                             | TypeScript JSX     |         38 |          0 |          7 |         45 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\input-group.tsx                            | TypeScript JSX     |        152 |          3 |         16 |        171 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\input-otp.tsx                              | TypeScript JSX     |         69 |          0 |          9 |         78 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\input.tsx                                  | TypeScript JSX     |         18 |          0 |          4 |         22 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\item.tsx                                   | TypeScript JSX     |        179 |          0 |         15 |        194 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\kbd.tsx                                    | TypeScript JSX     |         25 |          0 |          4 |         29 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\label.tsx                                  | TypeScript JSX     |         20 |          0 |          5 |         25 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\menubar.tsx                                | TypeScript JSX     |        257 |          0 |         20 |        277 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\navigation-menu.tsx                        | TypeScript JSX     |        157 |          0 |         12 |        169 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\pagination.tsx                             | TypeScript JSX     |        117 |          0 |         11 |        128 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\popover.tsx                                | TypeScript JSX     |         41 |          0 |          8 |         49 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\progress.tsx                               | TypeScript JSX     |         27 |          0 |          5 |         32 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\radio-group.tsx                            | TypeScript JSX     |         40 |          0 |          6 |         46 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\resizable.tsx                              | TypeScript JSX     |         50 |          0 |          7 |         57 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\scroll-area.tsx                            | TypeScript JSX     |         53 |          0 |          6 |         59 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\select.tsx                                 | TypeScript JSX     |        174 |          0 |         14 |        188 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\separator.tsx                              | TypeScript JSX     |         24 |          0 |          5 |         29 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\sheet.tsx                                  | TypeScript JSX     |        126 |          0 |         14 |        140 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\sidebar.tsx                                | TypeScript JSX     |        660 |         12 |         55 |        727 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\skeleton.tsx                               | TypeScript JSX     |         11 |          0 |          3 |         14 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\slider.tsx                                 | TypeScript JSX     |         58 |          0 |          6 |         64 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\sonner.tsx                                 | TypeScript JSX     |         36 |          0 |          5 |         41 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\spinner.tsx                                | TypeScript JSX     |         13 |          0 |          4 |         17 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\switch.tsx                                 | TypeScript JSX     |         27 |          0 |          5 |         32 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\table.tsx                                  | TypeScript JSX     |        105 |          0 |         12 |        117 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\tabs.tsx                                   | TypeScript JSX     |         59 |          0 |          8 |         67 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\textarea.tsx                               | TypeScript JSX     |         15 |          0 |          4 |         19 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\toggle-group.tsx                           | TypeScript JSX     |         66 |          0 |          8 |         74 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\toggle.tsx                                 | TypeScript JSX     |         42 |          0 |          6 |         48 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\ui\tooltip.tsx                                | TypeScript JSX     |         54 |          0 |          8 |         62 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\voice\FeatureCards.tsx                        | TypeScript JSX     |         71 |          2 |          3 |         76 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\voice\ProPlanRequired.tsx                     | TypeScript JSX     |         71 |          3 |          8 |         82 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\voice\VapiWidget.tsx                          | TypeScript JSX     |        235 |         15 |         32 |        282 |
+| c:\Users\Nocky\Desktop\dentalize\src\components\voice\WelcomeSection.tsx                      | TypeScript JSX     |         26 |          0 |          2 |         28 |
+| c:\Users\Nocky\Desktop\dentalize\src\hooks\use-appointment.ts                                 | TypeScript         |         50 |          1 |         10 |         61 |
+| c:\Users\Nocky\Desktop\dentalize\src\hooks\use-doctors.ts                                     | TypeScript         |         39 |          2 |         10 |         51 |
+| c:\Users\Nocky\Desktop\dentalize\src\hooks\use-mobile.ts                                      | TypeScript         |         15 |          0 |          5 |         20 |
+| c:\Users\Nocky\Desktop\dentalize\src\lib\actions\appointments.ts                              | TypeScript         |        152 |          3 |         23 |        178 |
+| c:\Users\Nocky\Desktop\dentalize\src\lib\actions\doctors.ts                                   | TypeScript         |        105 |          4 |         20 |        129 |
+| c:\Users\Nocky\Desktop\dentalize\src\lib\actions\users.ts                                     | TypeScript         |         23 |          0 |          5 |         28 |
+| c:\Users\Nocky\Desktop\dentalize\src\lib\prisma.ts                                            | TypeScript         |          4 |          1 |          3 |          8 |
+| c:\Users\Nocky\Desktop\dentalize\src\lib\resend.ts                                            | TypeScript         |          3 |          0 |          2 |          5 |
+| c:\Users\Nocky\Desktop\dentalize\src\lib\utils.ts                                             | TypeScript         |         54 |          2 |         10 |         66 |
+| c:\Users\Nocky\Desktop\dentalize\src\lib\vapi.ts                                              | TypeScript         |          2 |          0 |          1 |          3 |
+| c:\Users\Nocky\Desktop\dentalize\src\middleware.ts                                            | TypeScript         |          8 |          2 |          2 |         12 |
+| c:\Users\Nocky\Desktop\dentalize\tsconfig.json                                                | JSON with Comments |         27 |          0 |          1 |         28 |
+| Total                                                                                         |                    |     14,900 |        178 |      1,111 |     16,189 |
++-----------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

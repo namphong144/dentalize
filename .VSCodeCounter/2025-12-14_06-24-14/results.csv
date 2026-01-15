@@ -1,0 +1,123 @@
+"filename", "language", "JSON with Comments", "JSON", "TypeScript", "XML", "Markdown", "Prisma", "TypeScript JSX", "JavaScript", "PostCSS", "comment", "blank", "total"
+"c:\Users\Nocky\Desktop\dentalize\README.md", "Markdown", 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 14, 37
+"c:\Users\Nocky\Desktop\dentalize\biome.json", "JSON", 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 1, 35
+"c:\Users\Nocky\Desktop\dentalize\components.json", "JSON", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23
+"c:\Users\Nocky\Desktop\dentalize\next.config.ts", "TypeScript", 0, 0, 20, 0, 0, 0, 0, 0, 0, 1, 3, 24
+"c:\Users\Nocky\Desktop\dentalize\package-lock.json", "JSON", 0, 5218, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5219
+"c:\Users\Nocky\Desktop\dentalize\package.json", "JSON", 0, 78, 0, 0, 0, 0, 0, 0, 0, 0, 1, 79
+"c:\Users\Nocky\Desktop\dentalize\postcss.config.mjs", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 2, 6
+"c:\Users\Nocky\Desktop\dentalize\prisma\schema.prisma", "Prisma", 0, 0, 0, 0, 0, 59, 0, 0, 0, 8, 17, 84
+"c:\Users\Nocky\Desktop\dentalize\public\file.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Nocky\Desktop\dentalize\public\globe.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Nocky\Desktop\dentalize\public\next.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Nocky\Desktop\dentalize\public\vercel.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Nocky\Desktop\dentalize\public\window.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Nocky\Desktop\dentalize\src\app\admin\AdminDashboardClient.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 73, 0, 0, 3, 12, 88
+"c:\Users\Nocky\Desktop\dentalize\src\app\admin\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 12, 0, 0, 2, 6, 20
+"c:\Users\Nocky\Desktop\dentalize\src\app\api\send-appointment-email\route.ts", "TypeScript", 0, 0, 44, 0, 0, 0, 0, 0, 0, 3, 6, 53
+"c:\Users\Nocky\Desktop\dentalize\src\app\appointments\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 163, 0, 0, 7, 21, 191
+"c:\Users\Nocky\Desktop\dentalize\src\app\dashboard\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 2, 19
+"c:\Users\Nocky\Desktop\dentalize\src\app\globals.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 186, 1, 11, 198
+"c:\Users\Nocky\Desktop\dentalize\src\app\layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 47, 0, 0, 1, 6, 54
+"c:\Users\Nocky\Desktop\dentalize\src\app\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 26, 0, 0, 2, 4, 32
+"c:\Users\Nocky\Desktop\dentalize\src\app\pro\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 49, 0, 0, 1, 9, 59
+"c:\Users\Nocky\Desktop\dentalize\src\app\voice\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 22, 0, 0, 0, 7, 29
+"c:\Users\Nocky\Desktop\dentalize\src\components\Navbar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 75, 0, 0, 2, 8, 85
+"c:\Users\Nocky\Desktop\dentalize\src\components\UserSync.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 6, 27
+"c:\Users\Nocky\Desktop\dentalize\src\components\admin\AddDoctorDialog.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 152, 0, 0, 0, 14, 166
+"c:\Users\Nocky\Desktop\dentalize\src\components\admin\AdminStats.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 72, 0, 0, 0, 5, 77
+"c:\Users\Nocky\Desktop\dentalize\src\components\admin\DoctorsManagement.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 113, 0, 0, 0, 14, 127
+"c:\Users\Nocky\Desktop\dentalize\src\components\admin\EditDoctorDialog.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 141, 0, 0, 0, 13, 154
+"c:\Users\Nocky\Desktop\dentalize\src\components\admin\RecentAppointments.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 99, 0, 0, 0, 10, 109
+"c:\Users\Nocky\Desktop\dentalize\src\components\appointments\AppointmentConfirmationModal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 102, 0, 0, 4, 13, 119
+"c:\Users\Nocky\Desktop\dentalize\src\components\appointments\BookingConfirmationStep.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 88, 0, 0, 4, 8, 100
+"c:\Users\Nocky\Desktop\dentalize\src\components\appointments\DoctorCardsLoading.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 42, 0, 0, 1, 2, 45
+"c:\Users\Nocky\Desktop\dentalize\src\components\appointments\DoctorInfo.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 4, 27
+"c:\Users\Nocky\Desktop\dentalize\src\components\appointments\DoctorSelectionStep.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 89, 0, 0, 0, 7, 96
+"c:\Users\Nocky\Desktop\dentalize\src\components\appointments\ProgressSteps.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 30, 0, 0, 3, 5, 38
+"c:\Users\Nocky\Desktop\dentalize\src\components\appointments\TimeSelectionStep.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 125, 0, 0, 7, 12, 144
+"c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\ActivityOverview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 1, 12
+"c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\DentalHealthOverview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 70, 0, 0, 0, 4, 74
+"c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\MainActions.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 87, 0, 0, 2, 6, 95
+"c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\NextAppointment.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 81, 0, 0, 5, 11, 97
+"c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\NoNextAppointments.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 30, 0, 0, 0, 2, 32
+"c:\Users\Nocky\Desktop\dentalize\src\components\dashboard\WelcomeSection.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 4, 36
+"c:\Users\Nocky\Desktop\dentalize\src\components\emails\AppointmentConfirmationEmail.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 168, 0, 0, 7, 32, 207
+"c:\Users\Nocky\Desktop\dentalize\src\components\landing\CTA.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 74, 0, 0, 8, 9, 91
+"c:\Users\Nocky\Desktop\dentalize\src\components\landing\Footer.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 90, 0, 0, 0, 5, 95
+"c:\Users\Nocky\Desktop\dentalize\src\components\landing\Header.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 38, 0, 0, 0, 3, 41
+"c:\Users\Nocky\Desktop\dentalize\src\components\landing\Hero.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 78, 0, 0, 12, 15, 105
+"c:\Users\Nocky\Desktop\dentalize\src\components\landing\HowItWorks.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 112, 0, 0, 16, 18, 146
+"c:\Users\Nocky\Desktop\dentalize\src\components\landing\PricingSection.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 172, 0, 0, 7, 12, 191
+"c:\Users\Nocky\Desktop\dentalize\src\components\landing\WhatToAsk.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 138, 0, 0, 6, 6, 150
+"c:\Users\Nocky\Desktop\dentalize\src\components\providers\TanStackProvider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 24, 0, 0, 13, 6, 43
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\accordion.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 8, 67
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\alert-dialog.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 143, 0, 0, 0, 15, 158
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\alert.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 7, 67
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\aspect-ratio.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 4, 12
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\avatar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 47, 0, 0, 0, 7, 54
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\badge.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 6, 47
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\breadcrumb.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 99, 0, 0, 0, 11, 110
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\button-group.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 76, 0, 0, 0, 8, 84
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\button.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 6, 61
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\calendar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 203, 0, 0, 0, 11, 214
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 83, 0, 0, 0, 10, 93
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\carousel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 214, 0, 0, 0, 28, 242
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\chart.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 319, 0, 0, 2, 37, 358
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\checkbox.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 5, 33
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\collapsible.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 6, 34
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\command.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 172, 0, 0, 0, 13, 185
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\context-menu.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 234, 0, 0, 0, 19, 253
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\dialog.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 130, 0, 0, 0, 14, 144
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\drawer.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 122, 0, 0, 0, 14, 136
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\dropdown-menu.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 239, 0, 0, 0, 19, 258
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\empty.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 95, 0, 0, 0, 10, 105
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\field.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 225, 0, 0, 0, 20, 245
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 143, 0, 0, 0, 25, 168
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\hover-card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 38, 0, 0, 0, 7, 45
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\input-group.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 152, 0, 0, 3, 16, 171
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\input-otp.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 69, 0, 0, 0, 9, 78
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 4, 22
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\item.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 179, 0, 0, 0, 15, 194
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\kbd.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 4, 29
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\label.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 5, 25
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\menubar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 257, 0, 0, 0, 20, 277
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\navigation-menu.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 157, 0, 0, 0, 12, 169
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\pagination.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 117, 0, 0, 0, 11, 128
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\popover.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 8, 49
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\progress.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 5, 32
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\radio-group.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 6, 46
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\resizable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 7, 57
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\scroll-area.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 53, 0, 0, 0, 6, 59
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\select.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 174, 0, 0, 0, 14, 188
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\separator.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 24, 0, 0, 0, 5, 29
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\sheet.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 126, 0, 0, 0, 14, 140
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\sidebar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 660, 0, 0, 12, 55, 727
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\skeleton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 3, 14
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\slider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 58, 0, 0, 0, 6, 64
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\sonner.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 36, 0, 0, 0, 5, 41
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\spinner.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 4, 17
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\switch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 5, 32
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\table.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 105, 0, 0, 0, 12, 117
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\tabs.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 8, 67
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\textarea.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 4, 19
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\toggle-group.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 66, 0, 0, 0, 8, 74
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\toggle.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 6, 48
+"c:\Users\Nocky\Desktop\dentalize\src\components\ui\tooltip.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 54, 0, 0, 0, 8, 62
+"c:\Users\Nocky\Desktop\dentalize\src\components\voice\FeatureCards.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 71, 0, 0, 2, 3, 76
+"c:\Users\Nocky\Desktop\dentalize\src\components\voice\ProPlanRequired.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 71, 0, 0, 3, 8, 82
+"c:\Users\Nocky\Desktop\dentalize\src\components\voice\VapiWidget.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 235, 0, 0, 15, 32, 282
+"c:\Users\Nocky\Desktop\dentalize\src\components\voice\WelcomeSection.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 26, 0, 0, 0, 2, 28
+"c:\Users\Nocky\Desktop\dentalize\src\hooks\use-appointment.ts", "TypeScript", 0, 0, 50, 0, 0, 0, 0, 0, 0, 1, 10, 61
+"c:\Users\Nocky\Desktop\dentalize\src\hooks\use-doctors.ts", "TypeScript", 0, 0, 39, 0, 0, 0, 0, 0, 0, 2, 10, 51
+"c:\Users\Nocky\Desktop\dentalize\src\hooks\use-mobile.ts", "TypeScript", 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 5, 20
+"c:\Users\Nocky\Desktop\dentalize\src\lib\actions\appointments.ts", "TypeScript", 0, 0, 152, 0, 0, 0, 0, 0, 0, 3, 23, 178
+"c:\Users\Nocky\Desktop\dentalize\src\lib\actions\doctors.ts", "TypeScript", 0, 0, 105, 0, 0, 0, 0, 0, 0, 4, 20, 129
+"c:\Users\Nocky\Desktop\dentalize\src\lib\actions\users.ts", "TypeScript", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 5, 28
+"c:\Users\Nocky\Desktop\dentalize\src\lib\prisma.ts", "TypeScript", 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 3, 8
+"c:\Users\Nocky\Desktop\dentalize\src\lib\resend.ts", "TypeScript", 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 5
+"c:\Users\Nocky\Desktop\dentalize\src\lib\utils.ts", "TypeScript", 0, 0, 54, 0, 0, 0, 0, 0, 0, 2, 10, 66
+"c:\Users\Nocky\Desktop\dentalize\src\lib\vapi.ts", "TypeScript", 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\Nocky\Desktop\dentalize\src\middleware.ts", "TypeScript", 0, 0, 8, 0, 0, 0, 0, 0, 0, 2, 2, 12
+"c:\Users\Nocky\Desktop\dentalize\tsconfig.json", "JSON with Comments", 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 28
+"Total", "-", 27, 5352, 519, 5, 23, 59, 8725, 4, 186, 178, 1111, 16189
